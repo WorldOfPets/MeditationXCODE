@@ -20,7 +20,6 @@
 		CE316AE127044187008F6DAD /* Alegreya-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE316AD527044186008F6DAD /* Alegreya-SemiBoldItalic.ttf */; };
 		CE316AE227044187008F6DAD /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE316AD627044186008F6DAD /* Alegreya-Regular.ttf */; };
 		CE316AE327044187008F6DAD /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE316AD727044186008F6DAD /* Alegreya-ExtraBold.ttf */; };
-		CE316AE427044187008F6DAD /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE316AD827044186008F6DAD /* Alegreya-BlackItalic.ttf */; };
 		CE316AE527044187008F6DAD /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE316AD927044186008F6DAD /* Alegreya-Bold.ttf */; };
 		CE316AE627044187008F6DAD /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE316ADA27044186008F6DAD /* Alegreya-MediumItalic.ttf */; };
 		CE316AE727044187008F6DAD /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE316ADB27044186008F6DAD /* Alegreya-Black.ttf */; };
@@ -45,7 +44,6 @@
 		CE316AD527044186008F6DAD /* Alegreya-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		CE316AD627044186008F6DAD /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
 		CE316AD727044186008F6DAD /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-ExtraBold.ttf"; sourceTree = "<group>"; };
-		CE316AD827044186008F6DAD /* Alegreya-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-BlackItalic.ttf"; path = "../../../../../Downloads/Alegreya/static/Alegreya-BlackItalic.ttf"; sourceTree = "<group>"; };
 		CE316AD927044186008F6DAD /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
 		CE316ADA27044186008F6DAD /* Alegreya-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-MediumItalic.ttf"; sourceTree = "<group>"; };
 		CE316ADB27044186008F6DAD /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Black.ttf"; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				CE316ADB27044186008F6DAD /* Alegreya-Black.ttf */,
-				CE316AD827044186008F6DAD /* Alegreya-BlackItalic.ttf */,
 				CE316AD927044186008F6DAD /* Alegreya-Bold.ttf */,
 				CE316ADE27044187008F6DAD /* Alegreya-BoldItalic.ttf */,
 				CE316AD727044186008F6DAD /* Alegreya-ExtraBold.ttf */,
@@ -200,7 +197,6 @@
 				CE316AE527044187008F6DAD /* Alegreya-Bold.ttf in Resources */,
 				CE316AE227044187008F6DAD /* Alegreya-Regular.ttf in Resources */,
 				CE316AE927044187008F6DAD /* Alegreya-Italic.ttf in Resources */,
-				CE316AE427044187008F6DAD /* Alegreya-BlackItalic.ttf in Resources */,
 				CE316AE127044187008F6DAD /* Alegreya-SemiBoldItalic.ttf in Resources */,
 				CE316AE727044187008F6DAD /* Alegreya-Black.ttf in Resources */,
 				CE316AC027043E91008F6DAD /* Assets.xcassets in Resources */,
@@ -370,7 +366,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U6K96GKQ4;
 				INFOPLIST_FILE = MeditationEvg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = amezhenko.ru.MeditationEvg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -388,7 +387,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U6K96GKQ4;
 				INFOPLIST_FILE = MeditationEvg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -396,6 +397,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = amezhenko.ru.MeditationEvg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
